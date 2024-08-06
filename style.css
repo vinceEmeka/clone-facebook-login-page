@@ -1,0 +1,149 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+  /* color: #1F77F7; facebook header 
+  #1E1F24 paragragh
+  #45B72C button
+  #C1C1C1 footertext*/
+}
+
+.container {
+  background-color: #f1f2f7;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main {
+  display: flex;
+  /* border: 1px solid red; */
+  padding: 20px 0px;
+  /* margin: 0px 230px; */
+  padding: 72px 0 112px;
+}
+.facebook-heading {
+  max-width: 500px;
+  padding-right: 32px;
+  padding-top: 112px;
+  padding-bottom: 16px;
+}
+
+.facebook-heading h2 {
+  color: #0866ff;
+  font-weight: bolder;
+  font-size: 4rem;
+  padding-bottom: 20px;
+  padding-right: 32px;
+}
+.facebook-heading p {
+  color: #1c1e21;
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+}
+
+.login-form {
+  height: 496px;
+  width: 396px;
+}
+form {
+  background-color: white;
+  border: none;
+  /* padding: 15px; */
+  margin: 40px 0 0;
+  padding: 20px 0px 28px;
+  border-radius: 8px;
+  /* width: 396px; */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+input {
+  display: block;
+  padding: 14px 16px;
+  width: 364px;
+  margin: 0 16px 10px;
+  /* margin-bottom: 10px; */
+  border-radius: 8px;
+  border-color: #f1f2f7;
+  border-width: 0.5px;
+  outline-color: #0866ff;
+  font-size: 17px;
+}
+
+button {
+  font-size: 20px;
+  border: none;
+  border-radius: 6px;
+  line-height: 48px;
+  padding: 0 16px;
+  cursor: pointer;
+}
+
+.login {
+  background-color: #0866ff;
+  color: #ffffff;
+  width: 364px;
+  margin: 0 16px;
+}
+.signup-btn-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.signup {
+  background-color: #45b72c;
+  color: #ffffff;
+  /* margin: 0 55px; */
+  transition: background-color 0.15s;
+}
+.signup:hover {
+  background-color: #36a420;
+}
+
+.forgot {
+  margin-top: 16px;
+  text-align: center;
+  color: #0866ff;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.forgot:hover {
+  text-decoration: underline;
+}
+
+hr {
+  margin: 20px 16px;
+}
+
+.info {
+  margin-top: 28px;
+  font-size: 14px;
+  text-align: center;
+}
+span {
+  font-weight: bold;
+}
+
+footer {
+  background-color: #ffffff;
+  text-align: center;
+  color: #737373;
+  padding-top: 8px;
+  margin-bottom: 0px;
+}
+
+ul {
+  display: flex;
+  text-align: center;
+  width: 980px;
+  margin: 0 auto;
+}
+
+ul li {
+  padding-left: 10px;
+}
